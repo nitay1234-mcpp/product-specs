@@ -1,18 +1,18 @@
 # User Experience Improvements for Merchant Onboarding Process
 
-## Insights
+## Revised Requirements
 
-1. **Automated Document Submission**:  
-   - Allowing merchants to submit KYB documents through a portal can streamline the process and reduce the time taken for onboarding.
+1. **Automated Document Submission**:
+   - Merchants must be able to submit KYB documents through a user-friendly online portal to streamline the onboarding process and reduce the time taken.
 
-2. **Speed of Verification**:  
-   - Automating verification processes to achieve results in less than an hour for 80% of cases can significantly enhance user satisfaction by minimizing waiting times.
+2. **Speed of Verification**:
+   - Implement automation in verification processes to achieve results in less than one hour for 80% of cases, enhancing user satisfaction by minimizing waiting times.
 
-3. **Handling Edge Cases**:  
-   - Establishing a manual review queue for edge cases ensures that unique situations are handled efficiently without slowing down the overall process.
+3. **Handling Edge Cases**:
+   - Establish a dedicated manual review queue for edge cases to ensure unique situations are handled efficiently without causing delays in the overall onboarding process.
 
-4. **Communication**:  
-   - Implementing an email notification system for approval or rejection keeps merchants informed and engaged throughout the onboarding process.
+4. **Communication**:
+   - Develop an email notification system to inform merchants about approval or rejection of their submissions, keeping them engaged throughout the onboarding process.
 
 ## Conclusion
-Enhancing the user experience in the merchant onboarding process by focusing on automation, speed, efficient handling of exceptions, and proactive communication can lead to higher satisfaction and better retention of merchants.
+Enhancing the user experience in the merchant onboarding process by emphasizing automation, speed, efficient handling of exceptions, and proactive communication is essential for improving satisfaction and retaining merchants.
