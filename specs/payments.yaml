@@ -1,0 +1,32 @@
+openapi: 3.0.0
+info:
+  title: Payments API
+  description: API for handling payments
+  version: 1.0.0
+paths:
+  /payments:
+    post:
+      summary: Process a payment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                amount:
+                  type: number
+                  description: The amount to be processed
+                currency:
+                  type: string
+                  description: The currency of the payment
+                payment_method:
+                  type: string
+                  description: The payment method to use
+      responses:
+        '200':
+          description: Payment processed successfully
+        '400':
+          description: Bad request
+        '500':
+          description: Internal server error
