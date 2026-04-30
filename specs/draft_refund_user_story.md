@@ -5,9 +5,14 @@
 
 ## Requirements
 - The refund request must include a valid transaction ID in UUID string format.
-- The refund amount must be a positive number and not exceed the original transaction amount, supporting partial refunds.
+- Refund requests must be initiated with a valid transaction ID.
+- Refund requests can be tracked through the user dashboard.
+- The refund process should be automatically completed within 3-5 business days.
+- Users will receive an email notification once the refund is processed.
+- The refund amount must be a positive number and not exceed the original transaction amount, supporting partial refunds. In cases of partial refunds, users must specify the amount to be refunded.
 - The currency must be a supported currency (e.g., USD, EUR, GBP).
 - The reason field is optional.
+- Users can optionally provide feedback on their refund experience.
 - Refund requests must be submitted within the allowed refund period (e.g., 30 days from the original transaction date).
 - On successful submission, a confirmation message with a unique refund ID and status "success" must be returned.
 - Users should be able to query the refund status post-submission.
