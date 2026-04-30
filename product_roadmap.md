@@ -1,5 +1,17 @@
 ### Product Roadmap Update
 
+#### New Merchant Onboarding Flow
+
+- Implement a streamlined onboarding process for new merchants including:
+  - Comprehensive business and contact information collection with validation.
+  - Document upload functionality with size and format restrictions.
+  - Email verification and progress tracking.
+  - Mobile responsive and accessibility compliant UI (WCAG 2.1 AA).
+  - Secure data handling and GDPR compliance.
+  - Admin and user role-specific access and visibility.
+  - Integration with backend APIs for real-time data verification and payment processing.
+  - Analytics tracking conversion rates and drop-off points.
+
 #### Bug Reports Related to the Refund Flow
 
 The following bug reports have been prioritized:
