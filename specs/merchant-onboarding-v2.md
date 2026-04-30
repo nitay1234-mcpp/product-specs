@@ -1,5 +1,10 @@
 # Merchant Onboarding v2
 
+## Definitions
+- **KYB (Know Your Business):** The process of verifying the identity and legitimacy of a business entity.
+- **Edge Cases:** Special or uncommon cases that require manual review due to complexity or risk.
+- **SLA (Service Level Agreement):** The expected time frame within which a service or task should be completed.
+
 ## Problem
 Current onboarding takes 3-5 days due to manual KYB review.
 
@@ -17,6 +22,11 @@ Reduce onboarding time to under 24 hours using automated KYB processes.
    - Confirmation of submission
    - Status updates at critical stages
    - Detailed reason for rejection, if applicable
+
+## Example Scenarios for Edge Cases
+- A business with multiple owners and layered ownership structures.
+- Merchant operating in industries flagged as high-risk by regulators.
+- Submission missing one or more required KYB documents.
 
 ## Monitoring and Reporting
 - Implement tracking metrics to assess:
