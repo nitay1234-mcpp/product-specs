@@ -98,3 +98,19 @@ To ensure the refund feature aligns with WCAG criteria, the following accessibil
 7. **Testing and Documentation**
    - Include accessibility testing in acceptance criteria.
    - Document accessibility features and considerations for developers.
+
+---
+
+## Developer Checklist for Accessibility Compliance
+
+- [ ] Verify color contrast ratios meet WCAG 2.1 AA standards for all text and interactive elements.
+- [ ] Ensure all alternatives for non-text content have descriptive alt text.
+- [ ] Confirm dynamic content updates are managed accessibly beyond error and success messages.
+- [ ] Specify language attributes at a granular level for multi-language support.
+- [ ] Use ARIA live regions for dynamic content announcements.
+- [ ] Validate keyboard accessibility for all interactive elements.
+- [ ] Provide visible focus indicators.
+- [ ] Implement accessible form validation with ARIA attributes.
+- [ ] Use plain language consistently.
+- [ ] Include accessibility testing in acceptance criteria.
+- [ ] Document accessibility features for developers.
