@@ -44,3 +44,29 @@ paths:
           description: Request Timeout - Network timeout handling
         '500':
           description: Internal server error
+  /payments/{id}:
+    delete:
+      summary: Delete a payment by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the payment to delete
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Payment deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  message:
+                    type: string
+        '404':
+          description: Payment not found
+        '500':
+          description: Internal server error
