@@ -1,73 +1,27 @@
-# User Feedback on Pain Points and Recommendations for Flow Simplifications
+# Proposal for Flow Simplifications in Merchant Onboarding
 
-## 1. Submission Portal Experience
+## 1. Simplify Submission Portal Experience
+- Redesign the submission portal interface to be more intuitive and user-friendly, reducing complexity and cognitive load.
+- Integrate contextual help and tooltips directly within the portal to guide users about document requirements and steps, minimizing confusion.
 
-### Pain Points:
-- Lack of user-friendly and intuitive interface causing user frustration.
-- Insufficient guidance and help resources (e.g., tooltips) to assist users with document requirements.
+## 2. Enhance Automated Verification Transparency and Feedback
+- Provide clear, concise explanations of the automated verification process within the user interface.
+- Implement a real-time status tracker that informs users of their verification progress, reducing uncertainty and anxiety.
 
-> "The submission portal was confusing, and I wasn't sure what documents were needed. Some tooltips would really help."
+## 3. Streamline Manual Review for Edge Cases
+- Communicate expected wait times clearly when users enter manual review queues.
+- Optimize the manual review workflow to minimize delays and improve responsiveness.
 
-### Recommendations:
-- Enhance submission portal with a more intuitive interface.
-- Include contextual help or tooltips to guide users through document requirements.
+## 4. Improve Email Notification Clarity and Timing
+- Ensure email notifications about approval or rejection are sent promptly.
+- Craft notification content to clearly explain the decision outcome and outline next steps, empowering users with actionable information.
 
----
-
-## 2. Automated Verification Process
-
-### Pain Points:
-- Lack of transparency about the automated verification process and required documents.
-- Absence of real-time feedback on verification status leaving users uninformed.
-
-> "I had no idea what was happening after I submitted my documents. It would be great to see the verification status in real time."
-
-### Recommendations:
-- Increase transparency by informing users about the verification process and required documents upfront.
-- Provide real-time feedback on verification status throughout the process.
+## 5. Map and Optimize the Overall User Journey
+- Conduct a comprehensive user journey mapping exercise to identify and eliminate friction points.
+- Incorporate an easy-to-access feedback mechanism within the onboarding flow to gather continuous user insights and drive iterative improvements.
 
 ---
 
-## 3. Manual Review Queue for Edge Cases
+This proposal addresses the identified pain points by simplifying user interactions, enhancing communication and transparency, and fostering a feedback-driven approach for ongoing refinement.
 
-### Pain Points:
-- Users not clearly informed about delays in manual reviews.
-- Manual review process may be inefficient or slow.
-
-> "My application got stuck in manual review, and I wasn't notified about the delay. It was frustrating not knowing when it would be processed."
-
-### Recommendations:
-- Improve communication around manual review delays.
-- Streamline the manual review workflow to reduce wait times.
-
----
-
-## 4. Email Notifications
-
-### Pain Points:
-- Delayed email notifications regarding approval or rejection.
-- Notifications may lack clarity in explaining outcomes and next steps.
-
-> "The email I received was vague and didn't explain what to do next after my application was rejected."
-
-### Recommendations:
-- Ensure email notifications are timely.
-- Clearly communicate outcomes and provide clear next steps in notifications.
-
----
-
-## 5. Overall User Journey
-
-### Pain Points:
-- User journey not fully mapped out to identify all pain points.
-- Missing continuous user feedback mechanisms for ongoing improvement.
-
-> "It feels like there isn't a way to give feedback after the onboarding process. I'd like to share my experience to help improve things."
-
-### Recommendations:
-- Map the entire user journey to identify and address pain points systematically.
-- Implement continuous user feedback mechanisms for ongoing insights and improvements.
-
----
-
-This consolidated feedback aims to guide future improvements and flow simplifications to enhance the overall user experience during merchant onboarding.
+Please review and provide feedback or approval for next steps.
