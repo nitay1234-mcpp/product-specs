@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Payments API
   description: API for handling payments
-  version: 1.0.0
+  version: 1.1.0
 paths:
   /payments:
     post:
@@ -22,11 +22,25 @@ paths:
                   description: The currency of the payment
                 payment_method:
                   type: string
-                  description: The payment method to use
+                  description: The payment method to use (e.g., credit_card, debit_card, paypal)
+                discount_code:
+                  type: string
+                  description: Optional discount code to apply
       responses:
         '200':
           description: Payment processed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  message:
+                    type: string
         '400':
           description: Bad request
+        '408':
+          description: Request Timeout - Network timeout handling
         '500':
           description: Internal server error
