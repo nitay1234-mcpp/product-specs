@@ -54,13 +54,13 @@ Reduce onboarding time to under 24 hours using automated KYB processes.
 - Implement an AI-powered document recognition system to automatically verify KYB documents.
 - Use OCR (Optical Character Recognition) and machine learning algorithms to identify and validate document authenticity and data accuracy.
 - Define clear success criteria for automated verification, including document completeness, data consistency, and fraud detection.
-- Integrate with third-party KYB data providers for cross-validation.
+- Integrate with third-party KYB data providers for cross-validation, specifying APIs and integration points explicitly.
 - Establish automated retry mechanisms for failed verifications within the 1-hour target window.
 
 ## Manual Review Queue
 - Define a workflow for manual review escalation, including automatic flagging of edge cases by the system.
 - Assign manual review tasks to specialized compliance officers based on case complexity and risk profile.
-- Implement SLAs for manual review resolution (e.g., complete review within 24 hours).
+- Implement SLAs for manual review resolution (e.g., complete review within 24 hours), with fallback procedures for cases exceeding this timeframe.
 - Track manual review status and provide real-time updates to merchants via the portal.
 - Include an audit trail for all manual review actions for compliance and quality assurance.
 
@@ -68,7 +68,7 @@ Reduce onboarding time to under 24 hours using automated KYB processes.
 - Utilize multi-channel notification strategy: primary via email, secondary via SMS and in-app notifications.
 - Implement fallback mechanisms to retry email delivery and escalate to SMS if email delivery fails after two attempts.
 - Standardize email templates with dynamic content insertion for personalized communication.
-- Include secure links to the portal for merchants to view detailed status and upload additional documents if needed.
+- Include secure links to the portal for merchants to view detailed status and upload additional documents if needed, with security measures such as token expiration.
 - Ensure notifications comply with GDPR and other relevant communication regulations.
 
 ## Monitoring Metrics
@@ -84,6 +84,7 @@ Reduce onboarding time to under 24 hours using automated KYB processes.
 - Perform regular security audits and vulnerability assessments.
 - Comply with relevant regulations such as GDPR, CCPA, and PCI DSS as applicable.
 - Provide transparency and consent mechanisms to merchants regarding data usage and storage.
+- Define data retention policies for KYB documents in compliance with legal and regulatory requirements.
 
 ## Scalability and Performance
 - Design the system using microservices architecture to allow independent scaling of components.
@@ -97,7 +98,7 @@ Reduce onboarding time to under 24 hours using automated KYB processes.
 - Provide keyboard navigation, screen reader compatibility, and sufficient color contrast.
 - Conduct usability testing with users with disabilities.
 - Include accessibility statements and feedback mechanisms in the portal.
-- Regularly update accessibility features based on user feedback and legal requirements.
+- Regularly update accessibility features based on user feedback and legal requirements, and perform periodic accessibility audits aligned with evolving WCAG standards.
 
 
 *Status: Finalized for Implementation*
