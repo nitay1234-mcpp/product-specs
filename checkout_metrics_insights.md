@@ -36,6 +36,32 @@ This document defines and tracks key metrics related to the checkout process. It
 - Calculation: (Number of users with multiple checkouts / Total users) * 100
 - Purpose: Measures customer loyalty and satisfaction with the checkout experience.
 
+## Clarifications to Metrics Definitions
+
+### Total Checkout Completion Rate
+- A "completed checkout" is defined as a user reaching the order confirmation page and successfully submitting payment.
+- Partial checkouts, such as saved carts without submission, are not counted as completed.
+
+### Abandonment Rate
+- A checkout is considered "abandoned" if the user initiates the process but does not complete it within 30 minutes.
+- Voluntary abandonment (user choice) is differentiated from technical failures by error logging and user feedback.
+
+### Average Checkout Time
+- "Active user interaction time" excludes idle periods longer than 15 seconds and time spent on external payment gateways.
+- Time includes navigation between all steps within the checkout process up to order confirmation.
+
+### Payment Success Rate
+- A "payment attempt" counts as each unique submission of payment information during checkout.
+- Failed payments due to user input errors (e.g., incorrect card details) are tracked separately from system or network errors.
+
+### Error Rate During Checkout
+- Errors are categorized into validation errors, system errors, and network issues for detailed analysis.
+- Errors are detected through automated logging of checkout failures and user-reported issues.
+
+### Repeat Checkout Rate
+- The "given time period" for measuring repeat checkouts is defined as a rolling 30-day window.
+- Repeat checkouts include purchases of any products by the same user within this period.
+
 ## Measurement Guidelines
 
 - Data should be collected consistently across all checkout platforms (web, mobile, app).
